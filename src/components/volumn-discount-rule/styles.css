@@ -1,0 +1,63 @@
+.volumn-discount-rule {
+  margin-bottom: 40px;
+}
+
+.badge {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(255, 60, 0);
+  color: white;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 6px 0;
+  font-weight: 400;
+}
+
+.discount-option {
+  margin-top: 2px;
+  position: relative;
+  background-color: var(--p-color-bg-surface);
+  padding-bottom: 62px;
+}
+
+.actions {
+  padding: 30px 50px 0 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.actions > span {
+  cursor: pointer;
+}
+
+.actions span > span {
+  margin: unset;
+  margin-left: auto;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.add-option {
+  background-color: rgb(255, 60, 0);
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-group > * {
+  width: calc(33.33% - 10px);
+  margin-top: 20px;
+}
+
+.form-group > *:not(:last-child) {
+  margin-right: 10px;
+}
